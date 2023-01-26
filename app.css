@@ -1,0 +1,3985 @@
+/* chapter colors */
+#foresight-africa-2023 {
+  width: 100%;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  position: relative;
+  margin: auto;
+  overflow-x: hidden;
+}
+#foresight-africa-2023 a.anchor {
+  display: block;
+  position: relative;
+  top: -200px;
+  visibility: hidden;
+  height: 0;
+  border: 0;
+}
+#foresight-africa-2023 #fa23--nav {
+  position: fixed;
+  top: calc(32px + 10px);
+  width: 100%;
+  color: #fff;
+  z-index: 5;
+  opacity: 0;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  -webkit-transition: 0.2s ease opacity;
+  -o-transition: 0.2s ease opacity;
+  transition: 0.2s ease opacity;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #003a70;
+  width: 100%;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .nav__title {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .nav__title h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25em;
+  padding-left: 10px;
+  width: 100%;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .nav__title h2 a:link,
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .nav__title
+  h2
+  a:visited {
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .nav__title
+  h2
+  a:link:hover
+  i.right,
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .nav__title
+  h2
+  a:visited:hover
+  i.right {
+  -webkit-transform: rotate(135deg) translate(3px, 3px);
+  -ms-transform: rotate(135deg) translate(3px, 3px);
+  transform: rotate(135deg) translate(3px, 3px);
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .nav__title h2 i {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 7px;
+  margin: -3px 2px 2px 5px;
+  vertical-align: middle;
+  margin-left: auto;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .nav__title h2 i.right {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .fa23--nav__menu {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .fa23--nav__menu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+  line-height: 1;
+  max-width: none;
+}
+#foresight-africa-2023 #fa23--nav .fa23--nav__container .fa23--nav__menu ul li {
+  display: inline-block;
+  padding: 0 5%;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+}
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  a:link,
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  a:visited,
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  button#js--chapter {
+  color: #fff;
+  border: 0;
+  font-size: 1rem;
+}
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li:before {
+  content: '';
+}
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  button#js--chapter {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  padding: 0;
+}
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  button#js--chapter::after {
+  content: '\25BE';
+  font-size: 18px;
+  margin-left: 10px;
+}
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  button#js--chapter:focus,
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  button#js--chapter:active,
+#foresight-africa-2023
+  #fa23--nav
+  .fa23--nav__container
+  .fa23--nav__menu
+  ul
+  li
+  button#js--chapter:hover {
+  outline: none;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  #foresight-africa-2023
+    #fa23--nav
+    .fa23--nav__container
+    .js--desktop-item:last-of-type,
+  #foresight-africa-2023
+    #fa23--nav
+    .fa23--nav__container
+    .js--desktop-item:nth-of-type(2) {
+    display: none !important;
+  }
+  #foresight-africa-2023 #fa23--nav .fa23--nav__container .fa23--nav__menu {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--nav .fa23--nav__container .js--desktop-item {
+    display: none !important;
+  }
+  #foresight-africa-2023 #fa23--nav .fa23--nav__container .fa23--nav__menu {
+    width: 100%;
+  }
+  #foresight-africa-2023 #fa23--nav .fa23--nav__container .fa23--nav__menu ul {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  #foresight-africa-2023
+    #fa23--nav
+    .fa23--nav__container
+    .fa23--nav__menu
+    ul
+    li:first-of-type {
+    padding-left: 0;
+  }
+}
+#foresight-africa-2023 #fa23--nav #fa23--nav__chapter-menu {
+  background: #dde5ed;
+  width: 100%;
+  margin: 0 0 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  right: -150%;
+  -webkit-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  max-height: 70vh;
+  overflow: auto;
+}
+#foresight-africa-2023 #fa23--nav #fa23--nav__chapter-menu a.chapter__item:link,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border: 0;
+  color: #003a70;
+  border-bottom: 2px solid #aaa;
+  padding: 25px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link
+  .chapter__num,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited
+  .chapter__num {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-right: 30px;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited
+  .chapter__title {
+  font-size: 1.75rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited
+  .chapter__description {
+  font-size: 1.25rem;
+  margin: 0;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link:hover,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited:hover {
+  background-color: #ffe471;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link:hover
+  i,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited:hover
+  i {
+  opacity: 1;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link
+  i,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited
+  i {
+  border: solid #003a70;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 12px;
+  /*margin: -4px 33px 2px 5px;*/
+  vertical-align: middle;
+  margin-right: 100px;
+  margin-left: auto;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  opacity: 0;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:link
+  i.left,
+#foresight-africa-2023
+  #fa23--nav
+  #fa23--nav__chapter-menu
+  a.chapter__item:visited
+  i.left {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--nav
+    #fa23--nav__chapter-menu
+    a.chapter__item:link
+    .chapter__title,
+  #foresight-africa-2023
+    #fa23--nav
+    #fa23--nav__chapter-menu
+    a.chapter__item:visited
+    .chapter__title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  #foresight-africa-2023
+    #fa23--nav
+    #fa23--nav__chapter-menu
+    a.chapter__item:link
+    .chapter__description,
+  #foresight-africa-2023
+    #fa23--nav
+    #fa23--nav__chapter-menu
+    a.chapter__item:visited
+    .chapter__description {
+    font-size: 18px;
+  }
+  #foresight-africa-2023
+    #fa23--nav
+    #fa23--nav__chapter-menu
+    a.chapter__item:link
+    i,
+  #foresight-africa-2023
+    #fa23--nav
+    #fa23--nav__chapter-menu
+    a.chapter__item:visited
+    i {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--nav #fa23--nav__chapter-menu {
+    right: 0;
+    top: -100vh;
+  }
+}
+#foresight-africa-2023 #fa23--nav #fa23--nav__chapter-menu.js--open {
+  right: 0;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--nav #fa23--nav__chapter-menu.js--open {
+    top: initial;
+  }
+}
+#foresight-africa-2023 .fa23--header-container {
+  background-color: #003a70;
+  width: 100%;
+  padding: 50px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 3;
+  background-image: url('assets/FA23-Web-Header-Desktop-v2.png');
+  background-size: cover;
+  background-position: center center;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  height: 70vh;
+}
+#foresight-africa-2023 .fa23--header-container .fa23--header {
+  width: 100%;
+  font-size: 5.25rem;
+  text-align: center;
+  font-family: 'franklin-gothic-urw';
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0 0 40px #000;
+  color: #ff9d1a;
+}
+#foresight-africa-2023 .fa23--header-container .fa23--header .header__subtitle {
+  display: none;
+  font-size: 1.9375rem;
+  letter-spacing: 2.85px;
+  font-weight: 500;
+  line-height: 1.1935;
+}
+#foresight-africa-2023 .fa23--header-container .fa23--header h1 {
+  line-height: 1.05;
+}
+#foresight-africa-2023 .fa23--header-container .fa23--header h1 span {
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 .fa23--header-container .fa23--header {
+    font-size: 3.15em;
+    margin-bottom: 0px;
+    color: #ff9d1a;
+    text-shadow: none;
+  }
+  #foresight-africa-2023
+    .fa23--header-container
+    .fa23--header
+    .header__subtitle {
+    font-size: 0.875rem;
+    letter-spacing: 0.28px;
+    font-weight: 400;
+    display: block;
+  }
+  #foresight-africa-2023 .fa23--header-container .fa23--header h1 {
+    font-size: 3.125rem;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+  #foresight-africa-2023 .fa23--header-container .fa23--header {
+    margin-bottom: 50px;
+  }
+  #foresight-africa-2023
+    .fa23--header-container
+    .fa23--header
+    .header__subtitle {
+    display: block;
+  }
+  #foresight-africa-2023 .fa23--header-container .fa23--header h1 {
+    font-size: 4.625rem;
+  }
+}
+#foresight-africa-2023 .fa23--header-container .fa23--header__download {
+  width: 100%;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+#foresight-africa-2023
+  .fa23--header-container
+  .fa23--header__download
+  a#fa23--report-btn {
+  background-color: #ff9d1a;
+  width: 85%;
+  max-width: 430px;
+  border: 0;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 1px;
+  color: #003a70;
+  -webkit-box-shadow: 0 3px 5px #00000033;
+  box-shadow: 0 3px 5px #00000033;
+  line-height: 1.4167;
+  height: 60px;
+  letter-spacing: 0.24px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  .fa23--header-container
+  .fa23--header__download
+  a#fa23--report-btn
+  .fa23--btn__download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 30px;
+  margin-left: 15px;
+}
+#foresight-africa-2023
+  .fa23--header-container
+  .fa23--header__download
+  a#fa23--report-btn
+  .fa23--btn__download
+  img:first-of-type {
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  margin-bottom: -30px;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    .fa23--header-container
+    .fa23--header__download
+    a#fa23--report-btn
+    .fa23--btn__download {
+    display: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+#foresight-africa-2023
+  .fa23--header-container
+  .fa23--header__download
+  a#fa23--report-btn:hover {
+  cursor: pointer;
+  background: #fdb157;
+  /* background: -webkit-linear-gradient(8deg, #ffe471, #d8b82e);
+  background: -o-linear-gradient(8deg, #ffe471, #d8b82e);
+  background: linear-gradient(82deg, #ffe471, #d8b82e); */
+  border: 0;
+}
+#foresight-africa-2023
+  .fa23--header-container
+  .fa23--header__download
+  a#fa23--report-btn:hover
+  .fa23--btn__download
+  img:first-of-type {
+  margin-bottom: -25px;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    .fa23--header-container
+    .fa23--header__download
+    a#fa23--report-btn {
+    max-width: 400px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 .fa23--header-container {
+    background-image: url('assets/FA23-Web-Header-Mobile-v2.png');
+    background-size: cover;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 90vh;
+    background-position: center bottom;
+    padding-bottom: 50px;
+  }
+}
+#foresight-africa-2023 #fa23--event {
+  /* background: -webkit-radial-gradient(#ffe471 0%, #e6c741 100%);
+  background: -o-radial-gradient(#ffe471 0%, #e6c741 100%);
+  background: radial-gradient(#ffe471 0%, #e6c741 100%); */
+  background-repeat: no-repeat;
+  background-color: #ff9d1a;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+}
+#foresight-africa-2023 #fa23--event .fa23--event__container {
+  width: 100%;
+  max-width: calc((1366px / 12) * 10);
+  margin: auto;
+  color: #003a70;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#foresight-africa-2023 #fa23--event .fa23--event__container .event__flag {
+  background: #003a70;
+  color: #ff9d1a;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px 30px;
+  margin: 1em auto;
+  position: relative;
+  z-index: 1;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .event__flag:before {
+  width: 0;
+  height: 0;
+  display: block;
+  content: '';
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 17px solid #ff9d1a;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#foresight-africa-2023 #fa23--event .fa23--event__container .event__flag:after {
+  width: 0;
+  height: 0;
+  display: block;
+  content: '';
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-right: 17px solid #ff9d1a;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#foresight-africa-2023 #fa23--event .fa23--event__container h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  font-size: 2.25em;
+}
+#foresight-africa-2023 #fa23--event .fa23--event__container h3.event__subtitle {
+  font-weight: 400;
+  font-size: 1.7em;
+  margin: 0.1em 0;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .event__description {
+  font-size: 1.15em;
+  line-height: 1.5;
+  margin: 1.65em 0;
+}
+#foresight-africa-2023 #fa23--event .fa23--event__container .event__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .event__details
+  .details__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .event__details
+  .details__container
+  img {
+  margin-right: 1em;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--event .fa23--event__container .event__details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #ff9d1a;
+  }
+  #foresight-africa-2023
+    #fa23--event
+    .fa23--event__container
+    .event__details
+    .details__container {
+    margin: 10px 0;
+  }
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 40px 0 30px 0;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:link,
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:visited {
+  border-radius: 1px;
+  -webkit-box-shadow: 0 3px 5px #0000004d;
+  box-shadow: 0 3px 5px #0000004d;
+  display: block;
+  border: 0;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1.15em;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:link#event__register,
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:visited#event__register {
+  background: -webkit-linear-gradient(23deg, #326296 0%, #003a70);
+  background: -o-linear-gradient(23deg, #326296 0%, #003a70);
+  background: linear-gradient(67deg, #326296 0%, #003a70);
+  background-color: #003a70;
+  color: #ff9d1a;
+  border: 1px solid transparent;
+  border-left: 0;
+  margin-right: 30px;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:link#event__register:hover,
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:visited#event__register:hover {
+  background: -webkit-linear-gradient(23deg, #326296 85%, #003a70);
+  background: -o-linear-gradient(23deg, #326296 85%, #003a70);
+  background: linear-gradient(67deg, #326296 85%, #003a70);
+  background-color: #003a70;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:link#event__learn-more,
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:visited#event__learn-more {
+  /* background: -webkit-linear-gradient(16deg, #ffe471 0%, #e6c741);
+  background: -o-linear-gradient(16deg, #ffe471 0%, #e6c741);
+  background: linear-gradient(74deg, #ffe471 0%, #e6c741); */
+  background-color: #ff9d1a;
+  border: 1px solid #003a70;
+  color: #003a70;
+}
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:link#event__learn-more:hover,
+#foresight-africa-2023
+  #fa23--event
+  .fa23--event__container
+  .events__registration
+  a.event__btn:visited#event__learn-more:hover {
+  /* background: -webkit-linear-gradient(12deg, #ffe471 75%, #e6c741);
+  background: -o-linear-gradient(12deg, #ffe471 75%, #e6c741);
+  background: linear-gradient(78deg, #ffe471 75%, #e6c741); */
+  background-color: #fdb157;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--event
+    .fa23--event__container
+    .events__registration {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--event {
+    padding: 30px 15px;
+    background: #ff9d1a;
+  }
+}
+#foresight-africa-2023 #fa23--overview {
+  /* background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#011845),
+    to(#003a70)
+  ); */
+  /* background: -webkit-linear-gradient(top, #011845, #003a70);
+  background: -o-linear-gradient(top, #011845, #003a70);
+  background: linear-gradient(180deg, #011845, #003a70); */
+  background-color: #003a70;
+  color: #fff;
+  -webkit-box-shadow: 0 7px 7px #00000029;
+  box-shadow: 0 7px 7px #00000029;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  z-index: 3;
+}
+#foresight-africa-2023 #fa23--overview .overview__container {
+  width: 100%;
+  max-width: 1366px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: auto;
+}
+#foresight-africa-2023 #fa23--overview .overview__container h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.25em;
+  letter-spacing: 0.72px;
+  margin: 1em 0;
+}
+#foresight-africa-2023 #fa23--overview .overview__container p {
+  margin: 1.5em auto;
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: calc((1366px / 12) * 10);
+}
+#foresight-africa-2023 #fa23--overview .overview__container #overview__browse {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+}
+#foresight-africa-2023 #fa23--overview .overview__container .down-chevron {
+  margin-bottom: 0.5em;
+}
+#foresight-africa-2023 #fa23--overview .overview__container .down-chevron i {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 11px;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  opacity: 1;
+}
+#foresight-africa-2023
+  #fa23--overview
+  .overview__container
+  .down-chevron
+  i.down {
+  -webkit-transform: rotate(45deg) skew(-10deg, -10deg);
+  -ms-transform: rotate(45deg) skew(-10deg, -10deg);
+  transform: rotate(45deg) skew(-10deg, -10deg);
+}
+#foresight-africa-2023
+  #fa23--overview
+  .overview__container
+  .down-chevron
+  i.down:last-of-type {
+  -webkit-transform: rotate(45deg) skew(-10deg, -10deg) translate(-12px, -12px);
+  -ms-transform: rotate(45deg) skew(-10deg, -10deg) translate(-12px, -12px);
+  transform: rotate(45deg) skew(-10deg, -10deg) translate(-12px, -12px);
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--overview .overview__container {
+    text-align: left;
+  }
+  #foresight-africa-2023
+    #fa23--overview
+    .overview__container
+    #overview__browse {
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+  }
+  #foresight-africa-2023 #fa23--overview .overview__container .down-chevron {
+    display: inline-block;
+    margin-bottom: -0.5em;
+    margin-left: 10px;
+  }
+  #foresight-africa-2023 #fa23--overview .overview__container .down-chevron i {
+    padding: 5px;
+  }
+  #foresight-africa-2023
+    #fa23--overview
+    .overview__container
+    .down-chevron
+    i.down:last-of-type {
+    -webkit-transform: rotate(45deg) skew(-10deg, -10deg) translate(-5px, -5px);
+    -ms-transform: rotate(45deg) skew(-10deg, -10deg) translate(-5px, -5px);
+    transform: rotate(45deg) skew(-10deg, -10deg) translate(-5px, -5px);
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--overview {
+    padding: 30px 15px;
+  }
+}
+#foresight-africa-2023 #fa23--chapters__container {
+  width: 100%;
+  background: #ffffff;
+}
+#foresight-africa-2023 #fa23--chapters__container .fa23--chapters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #ed3a35 0%, #001d38 100%);
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 0px 0px 0px 30px;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left {
+  background-color: #ffffff;
+  width: 100%;
+  margin-right: 30px;
+  margin-left: auto;
+  padding: 30px 0;
+  max-width: calc((1366px / 12) * 9);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  span.chapter__num {
+  display: block;
+  font-size: 6.3em;
+  font-weight: 900;
+  line-height: 1.3;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h2
+  a:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h2
+  a:visited {
+  color: #333333;
+  font-weight: 700;
+  font-size: 2.7em;
+  text-transform: uppercase;
+  /*margin:0.5em 0;*/
+  line-height: 1.5;
+  border-bottom: 1px solid transparent;
+}
+
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h2
+  a:link:hover,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h2
+  a:visited:hover {
+  border-bottom: 1px dotted #003a70;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h2
+  a:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h2
+  a:visited {
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  h3.subtitle {
+  /* color: #333333; */
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a:link:hover {
+  color: #003a70 !important;
+  /* border-bottom: 3px dotted #003a70; */
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  .chapter__titles__1:hover
+  * {
+  color: #003a70 !important;
+}
+
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  p {
+  line-height: 1.75;
+  margin: 50px 0;
+  color: #333333;
+  font-size: 1em;
+  max-width: 835px;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:visited {
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  border: 0;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__1:hover {
+  background: #660507;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background: -webkit-linear-gradient(left, #ed3a35 0%, #001d38 100%);
+  background: -o-linear-gradient(left, #ed3a35 0%, #001d38 100%);
+  background: linear-gradient(90deg, #ed3a35 0%, #001d38 100%); */
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__2:hover {
+  background: #023147;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__3:hover {
+  background: #510831;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__4:hover {
+  background: #032b30;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__5:hover {
+  background: #663205;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__6:hover {
+  background: #1a3404;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more__7:hover {
+  background: #3e2c72;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:visited
+  span {
+  border: solid #003a70;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+  margin-left: 20px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:visited
+  span:before {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background: #003a70;
+  position: absolute;
+  left: -6px;
+  top: 3px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:link:hover
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__left
+  a.chapter__read-more:visited:hover
+  span {
+  -webkit-transform: translateX(5px) rotate(-45deg);
+  -ms-transform: translateX(5px) rotate(-45deg);
+  transform: translateX(5px) rotate(-45deg);
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    span.chapter__num {
+    padding: 30px 15px 0 15px;
+    color: #fff;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#ed3a35),
+      to(#001d38)
+    );
+    background: -webkit-linear-gradient(left, #ed3a35 0%, #001d38 100%);
+    background: -o-linear-gradient(left, #ed3a35 0%, #001d38 100%);
+    background: linear-gradient(90deg, #ed3a35 0%, #001d38 100%);
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    h2,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    h3.subtitle,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    p,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    a.chapter__read-more:link {
+    padding: 0 15px;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    p {
+    margin: 30px 0;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    h2 {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    line-height: 1;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints {
+  width: 33.3%;
+  max-width: calc((1366px / 12) * 3);
+  padding: 0px;
+  background: #ed3a35;
+  color: #fff;
+  position: relative;
+  padding-right: 1px;
+  margin-right: 0;
+  margin-left: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  h3 {
+  margin-top: 100px;
+  font-size: 1.25em;
+  padding: 0 0 30px 30px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  position: relative;
+  border-bottom: 1px solid #dde5ed;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  h3:before {
+  /* width: 0; */
+  height: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #ffffff;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  h3 {
+  width: 150%;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited {
+  width: 100%;
+  padding: 25px 30px 30px 15px;
+  display: block;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  padding-right: 0px;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link.viewpoint__governance:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited.viewpoint__governance:before {
+  content: 'Governance';
+  display: block;
+  background: #333333;
+  width: 98px;
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link.viewpoint__governance:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited.viewpoint__governance:hover:before {
+  content: 'Governance';
+  display: block;
+  background: #ffffff;
+  color: #053b6e;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link
+  .viewpoint__title,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited
+  .viewpoint__title {
+  font-weight: 500;
+  display: inline;
+  line-height: 1.3;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link
+    .viewpoint__title,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited:hover
+    .viewpoint__title {
+    background: none;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link
+  .viewpoint__author,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited
+  .viewpoint__author {
+  font-weight: 300;
+  font-size: 0.875em;
+  text-transform: uppercase;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link
+  .viewpoint__author:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited
+  .viewpoint__author:before {
+  content: '| ';
+  font-weight: 400;
+  border-bottom: 0;
+  font-size: 1rem;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:link:hover
+  .viewpoint__title,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  a.viewpoint__entry:visited:hover {
+  /* background: #82030f; */
+  /* .viewpoint__title { */
+  /* border-bottom: 0.75px dotted #fff; */
+}
+.viewpoint__entry:hover {
+  background: #82030f;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited:hover {
+    background: none;
+  }
+
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited:hover {
+    background: none;
+  }
+
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    h3 {
+    padding-left: 0;
+  }
+
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited {
+    padding-left: 0;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link:hover
+    .viewpoint__title,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited:hover
+    .viewpoint__title {
+    font-weight: 500;
+    border-bottom: 0.75px dotted #fff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link
+    .viewpoint__title,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited
+    .viewpoint__title {
+    font-size: 1.25em;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link
+    .viewpoint__author:before,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited
+    .viewpoint__author:before {
+    content: '';
+    font-weight: 400;
+    border-bottom: 0;
+    font-size: 1rem;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:link
+    .viewpoint__divider,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    a.viewpoint__entry:visited
+    .viewpoint__divider {
+    display: none;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  .viewpoint__expand {
+  display: none;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  .viewpoint__expand
+  button {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.17px;
+  border: 0;
+  background: none;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  .viewpoint__expand
+  button
+  i.down {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin: 0px 0 3px 4px;
+  margin-left: 7px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters
+  .fa23--chapters__viewpoints
+  .viewpoint__expand
+  button:hover {
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints {
+    padding: 20px 15px;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    h3:before {
+    left: -15px;
+    border-width: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints {
+    width: 100%;
+    max-width: none;
+    display: block;
+    padding: 20px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    h3 {
+    margin-top: 0;
+    font-size: 17px;
+    border-bottom: 2px solid #fff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    h3:before {
+    display: none;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__viewpoints
+    .viewpoint__expand {
+    display: block;
+    margin-top: 30px;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one {
+  /* width: 100%; */
+  /* background: #ffffff;  */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #ed3a35)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #ed3a35 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #ed3a35 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  span.chapter__num {
+  color: #ed3a35;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  a.chapter__read-more:visited {
+  color: #ed3a35;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  a.chapter__read-more:visited
+  span {
+  border-color: #ed3a35;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  a.chapter__read-more:visited
+  span:before {
+  background: #ed3a35;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__one
+  .fa23--chapters__viewpoints {
+  background: #ed3a35;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__one {
+    background: #ffffff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__one
+    span.chapter__num {
+    color: #fff;
+    background: transparent
+      linear-gradient(72deg, #ed3a35 0%, var(--unnamed-color-003a70) 100%) 0% 0%
+      no-repeat padding-box;
+    background: transparent linear-gradient(72deg, #ed3a35 0%, #003a70 100%) 0%
+      0% no-repeat padding-box;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two {
+  border-image-source: linear-gradient(90deg, #1e8ad6 0%, #001d38 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #1e8ad6)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #1e8ad6 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #1e8ad6 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  span.chapter__num {
+  color: #1e8ad6;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:visited {
+  color: #1e8ad6;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:visited
+  span {
+  border-color: #1e8ad6;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:visited
+  span:before {
+  background: #1e8ad6;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  .fa23--chapters__viewpoints {
+  background: #1e8ad6;
+}
+/* #foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:link
+  span:hover:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__two
+  a.chapter__read-more:visited
+  span:hover:before {
+  background: #023147;
+} */
+
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__two {
+    background: #ed3a35;
+  }
+
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__two
+    span.chapter__num {
+    color: #fff;
+    background: transparent
+      linear-gradient(72deg, #1e8ad6 0%, var(--unnamed-color-003a70) 100%) 0% 0%
+      no-repeat padding-box;
+    background: transparent linear-gradient(72deg, #1e8ad6 0%, #003a70 100%) 0%
+      0% no-repeat padding-box;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three {
+  border-image-source: linear-gradient(90deg, #d2468e, #001d38);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #d2468e)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #d2468e 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #d2468e 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  span.chapter__num {
+  color: #d2468e;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  a.chapter__read-more:visited {
+  color: #d2468e;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  a.chapter__read-more:visited
+  span {
+  border-color: #d2468e;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  a.chapter__read-more:visited
+  span:before {
+  background: #d2468e;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__three
+  .fa23--chapters__viewpoints {
+  background: #d2468e;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__three {
+    background: #ffffff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__three
+    span.chapter__num {
+    color: #fff;
+    background: transparent
+      linear-gradient(72deg, #d2468e 0%, var(--unnamed-color-003a70) 100%) 0% 0%
+      no-repeat padding-box;
+    background: transparent linear-gradient(72deg, #d2468e 0%, #003a70 100%) 0%
+      0% no-repeat padding-box;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four {
+  border-image-source: linear-gradient(90deg, #2a9aad, #001d38);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #2a9aad)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #2a9aad 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #2a9aad 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  span.chapter__num {
+  color: #2a9aad;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  a.chapter__read-more:visited {
+  color: #2a9aad;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  a.chapter__read-more:visited
+  span {
+  border-color: #2a9aad;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  a.chapter__read-more:visited
+  span:before {
+  background: #2a9aad;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__four
+  .fa23--chapters__viewpoints {
+  background: #2a9aad;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__four {
+    background: #ffffff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__four
+    span.chapter__num {
+    color: #fff;
+    /* background: #2a9aad; */
+    background: transparent
+      linear-gradient(72deg, #2a9aad 0%, var(--unnamed-color-003a70) 100%) 0% 0%
+      no-repeat padding-box;
+    background: transparent linear-gradient(72deg, #2a9aad 0%, #003a70 100%) 0%
+      0% no-repeat padding-box;
+  }
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five {
+  border-image-source: linear-gradient(90deg, #ff851a, #001d38);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #ff851a)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #ff851a 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #ff851a 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  span.chapter__num {
+  color: #ff851a;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  a.chapter__read-more:visited {
+  color: #ff851a;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  a.chapter__read-more:visited
+  span {
+  border-color: #ff851a;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  a.chapter__read-more:visited
+  span:before {
+  background: #ff851a;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__five
+  .fa23--chapters__viewpoints {
+  background: #ff851a;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__five {
+    background: #ffffff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__five
+    span.chapter__num {
+    color: #fff;
+    /* background: #ff851a; */
+    background: transparent
+      linear-gradient(72deg, #ff851a 0%, var(--unnamed-color-003a70) 100%) 0% 0%
+      no-repeat padding-box;
+    background: transparent linear-gradient(72deg, #ff851a 0%, #003a70 100%) 0%
+      0% no-repeat padding-box;
+  }
+}
+
+//chp 6
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six {
+  border-image-source: linear-gradient(90deg, #5ca632, #001d38) !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #5ca632),
+    color-stop(80%, #5ca632)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #5ca632 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #5ca632 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six {
+  border-image-source: linear-gradient(90deg, #5ca632, #001d38) !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #5ca632),
+    color-stop(80%, #5ca632)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #5ca632 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #5ca632 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  span.chapter__num {
+  color: #5ca632;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  a.chapter__read-more:visited {
+  color: #5ca632;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  a.chapter__read-more:visited
+  span {
+  border-color: #5ca632;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  a.chapter__read-more:visited
+  span:before {
+  background: #5ca632;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__six
+  .fa23--chapters__viewpoints {
+  background: #5ca632;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__six {
+    background: #ffffff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__six
+    span.chapter__num {
+    color: #fff;
+    /* background: transparent
+      linear-gradient(72deg, #ff851a 0%, var(--unnamed-color-003a70) 100%) 0% 0%
+      no-repeat padding-box;
+    background: transparent linear-gradient(72deg, #ff851a 0%, #003a70 100%) 0%
+      0% no-repeat padding-box; */
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#5ca632),
+      to(#003a70)
+    );
+    background: -webkit-linear-gradient(left, #5ca632 0%, #003a70 100%);
+    background: -o-linear-gradient(left, #5ca632 0%, #003a70 100%);
+    background: linear-gradient(72deg, #5ca632 0%, #003a70 100%);
+  }
+}
+//chp 7
+//#8E72D0
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven {
+  /* border-image-source: linear-gradient(90deg, #8e72d0, #8e72d0); */
+  border-image-source: linear-gradient(90deg, #8e72d0 0%, #001d38 100%);
+
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #8e72d0)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #8e72d0 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #8e72d0 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven {
+  /* border-image-source: linear-gradient(90deg, #8e72d0, #8e72d0); */
+  border-image-source: linear-gradient(90deg, #8e72d0 0%, #001d38 100%);
+
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(79%, #ffffff),
+    color-stop(80%, #8e72d0)
+  );
+  background: -webkit-linear-gradient(left, #ffffff 79%, #8e72d0 80%);
+  background: -o-linear-gradient(left, #ffffff 79%, #8e72d0 80%);
+  background: linear-gradient(to right, #ffffff 79%, #ffffff 80%);
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  span.chapter__num {
+  color: #8e72d0;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  a.chapter__read-more:link,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  a.chapter__read-more:visited {
+  color: #8e72d0;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  a.chapter__read-more:link
+  span,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  a.chapter__read-more:visited
+  span {
+  border-color: #8e72d0;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  a.chapter__read-more:link
+  span:before,
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  a.chapter__read-more:visited
+  span:before {
+  background: #8e72d0;
+}
+#foresight-africa-2023
+  #fa23--chapters__container
+  .fa23--chapters#chapters__seven
+  .fa23--chapters__viewpoints {
+  background: #8e72d0;
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__seven {
+    background: #ffffff;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters#chapters__seven
+    span.chapter__num {
+    color: #fff;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#8e72d0),
+      to(#003a70)
+    );
+    background: -webkit-linear-gradient(left, #8e72d0 0%, #003a70 100%);
+    background: -o-linear-gradient(left, #8e72d0 0%, #003a70 100%);
+    background: linear-gradient(72deg, #8e72d0 0%, #003a70 100%);
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--chapters__container .fa23--chapters {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0;
+    border-bottom: 0;
+  }
+}
+#foresight-africa-2023 #fa23--related__container {
+  background: #003a70;
+  padding: 40px 30px;
+}
+#foresight-africa-2023 #fa23--related__container h2 {
+  text-align: center;
+  color: #ff9d1a;
+  font-size: 2.25em;
+  letter-spacing: 0.72px;
+  font-weight: 700;
+  margin: 1em 0;
+  text-transform: uppercase;
+}
+#foresight-africa-2023 #fa23--related__container .fa23--related-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 1366px;
+  margin: auto;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry {
+  width: 100%;
+  border-radius: 1px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 20px 0;
+  padding: 15px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  img {
+  max-width: 250px;
+  margin-right: 30px;
+  border-radius: 4px;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text
+  span.related__label {
+  display: inline-block;
+  /*width: 85px;*/
+  background: #ff9d1a;
+  color: #003a70;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  padding: 7px 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text
+  a.related__title:link,
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text
+  a.related__title:visited {
+  font-size: 1.6em;
+  color: #fff;
+  line-height: 1;
+  border-bottom: 0.75px solid transparent;
+  padding-bottom: 4px;
+  display: inline-block;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text
+  a.related__title:hover {
+  border-bottom: 0.75px dotted #fff;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text
+  .related__authors {
+  font-weight: 300;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+  margin-top: 0.75em;
+}
+#foresight-africa-2023
+  #fa23--related__container
+  .fa23--related-content
+  .related__entry
+  .related__text
+  .related__description {
+  font-size: 1em;
+  line-height: 1.4;
+  color: #fff;
+  margin-top: 0.75em;
+  margin: 1em auto;
+}
+@media (max-width: 1024px) {
+  #foresight-africa-2023
+    #fa23--related__container
+    .fa23--related-content
+    .related__entry {
+    display: block;
+    padding: 15px 0;
+  }
+  #foresight-africa-2023
+    #fa23--related__container
+    .fa23--related-content
+    .related__entry
+    img {
+    display: none;
+  }
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    h2
+    a:link,
+  #foresight-africa-2023
+    #fa23--chapters__container
+    .fa23--chapters
+    .fa23--chapters__left
+    h2 {
+    line-height: 1.125;
+
+    /* padding-bottom: 0.5rem; */
+    /* padding-top: 0.5rem; */
+  }
+  #foresight-africa-2023
+    #fa23--related__container
+    .fa23--related-content
+    .related__entry
+    .related__text {
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #foresight-africa-2023
+    #fa23--related__container
+    .fa23--related-content
+    .related__entry
+    .related__text
+    a.related__title:link,
+  #foresight-africa-2023
+    #fa23--related__container
+    .fa23--related-content
+    .related__entry
+    .related__text
+    a.related__title:visited {
+    font-weight: 700;
+  }
+  #foresight-africa-2023
+    #fa23--related__container
+    .fa23--related-content
+    .related__entry
+    .related__text
+    .related__description {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  #foresight-africa-2023 #fa23--related__container {
+    padding: 20px 15px;
+  }
+  #foresight-africa-2023 #fa23--related__container h2 {
+    text-align: left;
+    padding: 0 15px;
+    margin: 0.75em 0;
+  }
+}
+#foresight-africa-2023 #fa23--past-reports__container {
+  background: #ffffff;
+  padding: 50px 30px;
+  display: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#foresight-africa-2023 #fa23--past-reports__container h2 {
+  color: #003a70;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+#foresight-africa-2023 #fa23--past-reports__container .past__entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-bottom: 100px;
+  max-width: 1366px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#foresight-africa-2023 #fa23--past-reports__container .past__entry img {
+  border-radius: 4px;
+  max-width: 230px;
+  -webkit-box-shadow: 0 0 10px #00000029;
+  box-shadow: 0 0 10px #00000029;
+  margin-right: 30px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info {
+  width: 100%;
+  margin-right: 30px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  h3.report__title {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+  font-weight: 400;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  h3.report__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  h3.report__title
+  a:visited {
+  color: #003a70;
+  text-decoration: none;
+  border: 0;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  h3.report__title
+  a:hover {
+  border-bottom: 1px dotted #003a70;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .report__buttons {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #003a70;
+  margin-bottom: 20px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .report__buttons
+  button {
+  font-size: 14px;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #003a70;
+  background: #ffffff;
+  margin-right: 15px;
+  display: inline-block;
+  border: 0;
+  padding: 5px;
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .report__buttons
+  button.btn__active {
+  font-weight: 900;
+  border-bottom: 4px solid #ff5e1a;
+  pointer-events: none;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .report__buttons
+  button:hover {
+  cursor: pointer;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container {
+  display: none;
+  border-bottom: 1px solid #003a70;
+  -webkit-column-count: 2;
+  column-count: 2;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 16px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  margin-right: 20px;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid-column;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapters__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapters__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapters__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapters__num,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__num {
+  font-weight: 700;
+  color: #003a70;
+  padding-top: 5px;
+  font-size: 1.25em;
+  margin-right: 15px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta {
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid-column;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__title {
+  font-size: 1.2em;
+  color: #003a70;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__title
+  a:visited,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__title
+  a:visited {
+  color: #003a70;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__description,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__description {
+  font-weight: 300;
+  font-size: 1em;
+  color: #326296;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__linkout,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__linkout {
+  border: 0;
+  text-decoration: none;
+  display: block;
+  color: #003a70;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__linkout:hover
+  .viewpoints__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .chapter__title,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__linkout:hover
+  .viewpoints__title {
+  border-bottom: 1px dotted #003a70;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .chapter__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .chapters__individual
+  .viewpoints__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .chapter__meta
+  .viewpoints__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .chapter__author,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container
+  .viewpoints__individual
+  .viewpoints__meta
+  .viewpoints__author {
+  font-weight: 300;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  color: #707070;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .chapters__container.js--active-view,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .viewpoints__container.js--active-view {
+  display: block;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links {
+  margin-top: 35px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:link,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:visited {
+  border-radius: 1px;
+  background: #dde5ed;
+  color: #003a70;
+  border: 1px solid #003a70;
+  -webkit-box-shadow: 0 3px 5px #00000029;
+  box-shadow: 0 3px 5px #00000029;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.36px;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:link.btn__download,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:visited.btn__download {
+  margin-right: 15px;
+  background: -webkit-linear-gradient(26deg, #326296, #003a70);
+  background: -o-linear-gradient(26deg, #326296, #003a70);
+  background: linear-gradient(64deg, #326296, #003a70);
+  color: #dde5ed;
+  border: transparent;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:link.btn__download:hover,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:visited.btn__download:hover {
+  background: -webkit-linear-gradient(26deg, #326296 70%, #003a70);
+  background: -o-linear-gradient(26deg, #326296 70%, #003a70);
+  background: linear-gradient(64deg, #326296 70%, #003a70);
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:link:hover,
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .past__entry
+  .past__report-info
+  .past__links
+  a.btn__links:visited:hover {
+  background: -webkit-linear-gradient(26deg, #edf6ff 70%, #dde5ed);
+  background: -o-linear-gradient(26deg, #edf6ff 70%, #dde5ed);
+  background: linear-gradient(64deg, #edf6ff 70%, #dde5ed);
+}
+#foresight-africa-2023 #fa23--past-reports__container .past__entry.js--hidden {
+  display: none;
+}
+#foresight-africa-2023 #fa23--past-reports__container .expand__container {
+  text-align: center;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .expand__container
+  button {
+  text-transform: uppercase;
+  color: #326296;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  background: none;
+  font-family: 'franklin-gothic-urw', helvetica, sans-serif;
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .expand__container
+  button
+  i.down {
+  border: solid #326296;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 7px;
+  margin: 0px 0 3px 4px;
+  margin-left: 10px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#foresight-africa-2023
+  #fa23--past-reports__container
+  .expand__container
+  button:hover {
+  cursor: pointer;
+}
+@media (min-width: 1025px) {
+  #foresight-africa-2023 #fa23--past-reports__container {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

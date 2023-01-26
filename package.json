@@ -1,0 +1,37 @@
+{
+    "name": "foresight-africa-2023",
+    "version": "1.0.0",
+    "description": "Foresight Africa 2023",
+    "main": "dev.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "watch": "webpack --watch",
+      "start": "webpack serve --open",
+      "build": "webpack"
+    },
+    "author": "Molly Escobar",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.1.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-loader": "^8.2.4",
+      "css-loader": "^6.7.1",
+      "html-webpack-plugin": "^5.5.0",
+      "mini-css-extract-plugin": "^2.6.0",
+      "sass": "^1.50.0",
+      "sass-loader": "^12.6.0",
+      "style-loader": "^3.3.1",
+      "webpack": "^5.72.0",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.8.1"
+    },
+    "sideEffects": [
+      "*.css",
+      "*.scss"
+    ],
+    "dependencies": {
+      "css-minimizer-webpack-plugin": "^3.4.1"
+    }
+  }
+  
